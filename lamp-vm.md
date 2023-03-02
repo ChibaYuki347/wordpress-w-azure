@@ -29,6 +29,7 @@ vmAdminName=azureuser
 # リソースグループを作成
 
 ```bash
+az group create --name $resourceGroup --location japaneast
 ```
 
 # VNetとサブネットを作成
