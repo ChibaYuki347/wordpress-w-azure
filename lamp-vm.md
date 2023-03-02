@@ -87,10 +87,10 @@ az network public-ip create --resource-group $resourceGroup --name $publicIpName
 az network nic create \
   --name $nicName \
   --resource-group $resourceGroup \
-  --vnet-name myVnet \
-  --subnet mySubnet \
-  --network-security-group myNsg \
-  --public-ip-address myPublicIp
+  --vnet-name $vnetName \
+  --subnet $subnetName \
+  --network-security-group $nsgName \
+  --public-ip-address $publicIpName
 ```
 
 # 仮想マシンを作成
