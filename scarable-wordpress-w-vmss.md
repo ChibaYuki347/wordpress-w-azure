@@ -16,7 +16,7 @@
 
 # 変数の定義
 
-最低限サブスクリプションとリソースグループ
+最低限サブスクリプションとリソースグループは変更する。
 
 ```bash
 subscriptionId="XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
