@@ -22,7 +22,7 @@
 subscriptionId="XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
 resourceGroupName="myResourceGroup"
 storageAccountName="mystorageacct$RANDOM"
-region="westus2"
+region="japaneast"
 shareName="myshare$RANDOM"
 mysqlServerName="myserver$RANDOM"
 mysqlAdmin="myadmin"
@@ -44,7 +44,8 @@ ScaleSetName="myScaleSet"
 VNETName="myVNET"
 SubnetName="mySubnet"
 BackendSubnetName="myBackendSubnet"
-AppGWPublicIPAddressName="myAppGWPublicIP" 
+AppGWPublicIPAddressName="myAppGWPublicIP"
+AppGatewayName="myAppGateway" 
 ```
 # リソースグループの作成
 
